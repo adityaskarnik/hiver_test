@@ -11,5 +11,5 @@ def input_anagram(anagram_list):
 
 
 if __name__ == "__main__":
-    list_input = input("Input the list elements: ")
+    list_input = input("Input the list elements as 'abc efg hij...': ")
     input_anagram(list_input.split())
